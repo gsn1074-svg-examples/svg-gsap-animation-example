@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+svg {
+	max-width: 90vh;
+	max-height: 90vh;
+	width: 100%;
+	height: auto;
+}
+
+#snow-top-layer {
+	filter: blur(1px);
+}
+
+#snow-bottom-layer {
+	filter: blur(2px);
+}
